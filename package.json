@@ -19,10 +19,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "arraybuffer-loader": "^0.2.2",
+    "gh-pages": "^1.0.0",
     "raw-loader": "^0.5.1"
   }
 }
