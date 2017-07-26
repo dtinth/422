@@ -342,6 +342,7 @@ class App extends Component {
       <div className='main'>
         <div className='info'>
           <h1>422</h1>
+          <p>Please use Google Chrome to open this page.</p>
           <p>
             Composed by <strong>flicknote</strong> <span className='real'>(Thai Pangsakulyanont)</span>
             <br />
